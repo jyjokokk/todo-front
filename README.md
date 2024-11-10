@@ -1,10 +1,9 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+# ToDo App - Frontend
 
-# React Tailwindcss Boilerplate build with Vite
+This the frontend for a simple ToDo list application.
+For the backend, please see [this repository](https://github.com/jyjokokk/todo-app).
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
-
-## What is inside?
+## Built with
 
 This project uses many tools like:
 
@@ -24,7 +23,7 @@ This project uses many tools like:
 Create the project.
 
 ```bash
-pnpm dlx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+yarn dlx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
 ```
 
 Access the project directory.
@@ -36,43 +35,43 @@ cd my-app
 Install dependencies.
 
 ```bash
-pnpm install
+yarn install
 ```
 
 Serve with hot reload at <http://localhost:5173>.
 
 ```bash
-pnpm run dev
+yarn dev
 ```
 
 ### Lint
 
 ```bash
-pnpm run lint
+yarn lint
 ```
 
 ### Typecheck
 
 ```bash
-pnpm run typecheck
+yarn typecheck
 ```
 
 ### Build
 
 ```bash
-pnpm run build
+yarn build
 ```
 
 ### Test
 
 ```bash
-pnpm run test
+yarn test
 ```
 
 View and interact with your tests via UI.
 
 ```bash
-pnpm run test:ui
+yarn test:ui
 ```
 
 ## License
