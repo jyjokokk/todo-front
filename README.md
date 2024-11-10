@@ -20,16 +20,16 @@ This project uses many tools like:
 
 ### Install
 
-Create the project.
+Clone the repository
 
 ```bash
-yarn dlx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+git clone https://github.com/jyjokokk/todo-front.git
 ```
 
 Access the project directory.
 
 ```bash
-cd my-app
+cd todo-front
 ```
 
 Install dependencies.
