@@ -3,7 +3,7 @@ import LoginForm from '../components/Login/LoginForm'
 
 const Login: React.FC = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div>
       <LoginForm />
     </div>
   )
