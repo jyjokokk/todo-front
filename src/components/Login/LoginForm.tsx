@@ -10,7 +10,7 @@ const LoginForm = () => {
   }
 
   return (
-    <div className="grid grid-cols-4 gap-4 content-center">
+    <div className="component-LoginForm">
       <form onSubmit={handleSubmit}>
         <h1>Login</h1>
         <input
