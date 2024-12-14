@@ -6,26 +6,24 @@ const LoginForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    console.log(email)
+    console.log('credentials', { email, password })
   }
 
   return (
     <div className="component-LoginForm">
+      <h1>Login</h1>
       <form onSubmit={handleSubmit}>
-        <h1>Login</h1>
         <input
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Email"
-          className="border-2"
         />
         <input
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Password"
-          className="border-2"
         />
         <button type="submit" className="border-2">
           Login
