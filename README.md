@@ -1,4 +1,4 @@
-# ToDo App - Frontend
+# To OverDo - Frontend
 
 This the frontend for a simple ToDo list application.
 For the backend, please see [this repository](https://github.com/jyjokokk/todo-app).
